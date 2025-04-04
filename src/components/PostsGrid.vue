@@ -17,7 +17,7 @@ onBeforeMount(async () => {
 
 <template>
   <div class="posts-grid">
-    <PostItem v-for="post in posts" :key="post.id" v-bind="post" />
+    <PostItem v-for="post in posts" :key="post.id" :post="post" />
   </div>
 </template>
 
