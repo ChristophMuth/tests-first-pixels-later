@@ -26,5 +26,6 @@ onBeforeMount(async () => {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  margin-top: 2rem;
 }
 </style>
